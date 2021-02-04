@@ -8,6 +8,7 @@ import { Component, OnInit, Renderer2  } from '@angular/core';
 export class HeaderComponent implements OnInit {
   constructor(private renderer: Renderer2) { }
   showSidebar = false;
+  /* Function ****/
   toggleSidebar() {
     if(!this.showSidebar) {
       this.renderer.addClass(document.body, 'sidebar-close');
