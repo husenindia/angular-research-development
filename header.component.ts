@@ -4,6 +4,7 @@ import { Component, OnInit, Renderer2  } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
 export class HeaderComponent implements OnInit {
   constructor(private renderer: Renderer2) { }
   showSidebar = false;
