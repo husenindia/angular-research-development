@@ -18,5 +18,4 @@ export class HeaderComponent implements OnInit {
     }
     this.showSidebar=!this.showSidebar;
   }
- 
 }
